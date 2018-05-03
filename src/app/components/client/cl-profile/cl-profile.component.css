@@ -3,14 +3,14 @@
     background-position: center center;
     background-attachment: fixed; 
     background-size: cover;
-    height: 120vh !important;
+    /*height: 160vh !important;*/
 }
-
+/*
 @media only screen and (max-width: 600px) {
     .fullbg{
     height: 180vh !important;
     }
-}
+}*/
 
 .mine{
     cursor: pointer;

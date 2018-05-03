@@ -3,8 +3,7 @@
 -----------------------------------------------------------------------*/
 html { height: 100%;}
 body .main-content{ position: relative; height: 100%; width: 100%; }
-body .main-content.no-hight{ height: 100vh; }
-/*body .main-content.no-hight{ height: inherit !important; }*/
+body .main-content.no-hight{ height: inherit !important; }
 body { background: #fff; font-family: 'Open Sans', sans-serif; font-weight: normal; font-style: normal; font-size: 16px; line-height: 28px; color: #666666; height: 100%; }
 a, .button { transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; color: #000; }
 a:focus { text-decoration: none !important; }
@@ -508,10 +507,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 /*----------------------------------------------------------------------
                          background Image
 -----------------------------------------------------------------------*/
-.bg-1{background: url(../images/bg/bg-1.jpg); background-position: center center; background-repeat: no-repeat; background-attachment: fixed;
+.bg-1{background: url(/assets/images/bg/bg-1.jpg); background-position: center center; background-repeat: no-repeat; background-attachment: fixed;
     background-size: cover;  animation: breath 50.0s linear infinite;}
 
-.bg-2{background: url(../images/bg/bg-2.jpg); background-position: center center; background-repeat: no-repeat; background-attachment: fixed;
+.bg-2{background: url(/assets/images/bg/bg-2.jpg); background-position: center center; background-repeat: no-repeat; background-attachment: fixed;
     background-size: cover;  animation: breath 50.0s linear infinite;}
 
 
@@ -614,7 +613,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 -----------------------------------------------------------------------*/
 
 @media(max-width:1600px) {
-/*body .main-content{ height: auto !important; }*/
+body .main-content{ height: auto !important; }
 .iq-mt-80.wallet-box{margin-top: 50px !important;}
 }
 

@@ -3,8 +3,9 @@
     background-position: center center;
     background-attachment: fixed; 
     background-size: cover;
-    height: 100vh !important;
+    height: 140vh !important;
     background-repeat: no-repeat;
+    animation: breath 50.0s linear infinite;
     /*animation: breath 50.0s linear infinite;*/
 }
 
